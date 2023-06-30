@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.resume-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 980px;
+    background-image: url(download.jpg);
+}
+
+.first-box{
+    margin-top: 15px;
+    background-color: rgb(224, 218, 218);
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  white;
+}
+
+.first-box img{
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    
+}
+.first-box h3{
+    text-transform: uppercase;
+    margin: 30px 0 0 0 ;
+    margin-right: 110px;
+}
+
+.first-box ul{
+    list-style: none;
+    margin:8px 15px;
+    font-size: 15px;
+}
+
+.first-box ul li{
+    margin: 2px;
+}
+
+
+
+
+
+
+.second-box{
+    background-color: rgb(224, 218, 218);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px  white;
+
+}
+ h2{
+    padding: 5px;
+}
+.skill-list{
+    width: 200px;
+    height: 230px;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+}
+progress{
+    background-color: black;
+    font-size: 15px;
+    height: 10px;
+    margin: 5px;
+}
+
+
+
+
+
+.third-box{
+    background-color: rgb(224, 218, 218);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 5px;
+    box-shadow: 5px 5px 10px  white;
+
+    
+}
+
+.third-box h2{
+    margin: 5px 5px 0 ;
+}
+
+.third-box ul{
+    list-style: none;
+}
+
+.third-box ol{
+    margin-left: 22px;
+}
+
+
+
+
+
+
+.fourth-box{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(224, 218, 218);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px  white;
+}
+
+
+
+.fifth-box{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(224, 218, 218);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px  white;
+
+}
+
+.ssc{
+    margin-top: px;
+    background-color: rgb(237, 229, 229);
+    border-radius: 10px;
+    padding: 10px;
+    width: 230px;
+}
+.hsc{
+    background-color: rgb(237, 229, 229);
+    border-radius: 10px;
+    padding: 10px;
+    width: 230px;
+    margin: 8px 0px 0px 50px; 
+}
+.degree{
+    background-color: rgb(237, 229, 229);
+    border-radius: 10px;
+    padding: 10px;
+    width: 230px;
+    margin: 8px 0px;   
+}
+
+h3{
+    margin: 0px 0px 3px 0px;
+}
+
+
+
+
+
+.hobbies{
+    width: 300px;
+    background-color: rgb(224, 218, 218);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px  white;
+
+}
+
+.hobbies ul{
+    margin-left: 20px;
+}
+
+
